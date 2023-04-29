@@ -1,8 +1,12 @@
-site_name: 'blog @ spephton.net'
+site_name: 'spephton.net'
 site_url: https://example.com
-nav:
-    - Home: index.md
-    - About: about.md
 theme: material
-  
-# docs_dir: 'posts'
+docs_dir: 'blog'
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
