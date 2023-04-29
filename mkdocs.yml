@@ -1,0 +1,8 @@
+site_name: 'blog @ spephton.net'
+site_url: https://example.com
+nav:
+    - Home: index.md
+    - About: about.md
+theme: material
+  
+# docs_dir: 'posts'
