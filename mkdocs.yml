@@ -1,5 +1,5 @@
 site_name: 'spephton.net'
-site_url: https://example.com
+site_url: https://spephton.github.io
 theme: material
 docs_dir: 'blog'
 markdown_extensions:
